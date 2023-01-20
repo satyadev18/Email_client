@@ -1,0 +1,62 @@
+.main{
+    height: 60%;
+    width: 45%;
+
+    border: 1px solid #cfd2dc;
+    border-radius: 10px;
+
+    padding: 13px;
+    padding-bottom: 130px;
+
+    background-color: #F4F5F9;
+    color:#636363;
+    position: fixed;
+
+    overflow: scroll;
+    right: 20px;
+    top: 70px;
+
+    margin-bottom: 30px;
+    margin-top: 10px;
+
+}
+
+.topbar{
+margin: 5px;
+padding: 5px;
+display: flex;
+
+
+}
+.fav-btn{
+    margin-left: 80px;
+    margin-top: 18px;
+    background-color: #E54065;
+    border-radius: 20px;
+    border: none;
+    height: 25px;
+    color: white;
+    cursor: pointer;
+
+
+}
+
+.name{
+    margin-left: 30px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.description{
+    text-align: left;
+    margin-left: 37px;
+}
+
+
+@media (max-width:500px) {
+    .main{
+        width:38%;
+        height: 40%;
+        text-align: bottom;
+    }
+}

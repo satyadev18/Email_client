@@ -1,0 +1,146 @@
+.main{
+    display: flex;
+}
+
+.nav-btn {
+    margin: 10px;
+
+    display: flex;
+
+
+}
+
+.filter-btn{
+    border:none;
+    border-radius: 15px;
+    background-color: transparent;
+    margin: 2px;
+    margin-left: 12px;
+    cursor: pointer;
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+.filter-btn:focus{
+    background-color: #e1e4ea;
+}
+
+
+.logo{
+    display: inline-block;
+    border: 1px solid #E54065;
+    border-radius: 50%;
+    color: white;
+    height: 30px;
+    width: 30px;
+    font-weight: 700;
+    font-size: 20px;
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+    background-color: #E54065;
+
+}
+#logo-id{
+
+    margin-right: 10px;
+    display: flex;
+}
+.mail-item{
+    background-color:#f4f5f9;
+    border: 1px solid #cfd2dc;
+    border-radius: 10px;
+    color:#636363;
+
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-left: 20px;
+    padding: 25px;
+    cursor: pointer;
+    text-align: left;
+
+
+}
+
+.mail-item p{
+    margin:0;
+}
+
+.split-mail-item p{
+    margin:0;
+}
+
+
+.split-mail-item{
+    background-color:#f4f5f9;
+    border: 1px solid #cfd2dc;
+    border-radius: 10px;
+    color:#636363;
+    width:45%;
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    margin-left: 20px;
+    padding: 25px;
+    cursor: pointer;
+    text-align: left;
+
+
+
+}
+
+.split-mail-item:focus{
+    border:1px solid red;
+
+}
+
+#read{
+    background-color:#F2F2F2;
+
+}
+
+.favourite{
+    color:#E54065;
+    font-weight: 700;
+    padding-left: 500px;
+}
+
+.end-btn{
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.page-btn{
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: transparent;
+
+
+}
+
+/* responsivness */
+
+@media (max-width:500px) {
+    .favourite{
+        padding-left:90px ;
+    }
+    .split-mail-item{
+        width: 200px;
+        overflow: scroll;
+        margin-left: 0px;
+    }
+
+}
+
+@media (max-width:1000px) and
+(min-width:500px){
+
+
+}
